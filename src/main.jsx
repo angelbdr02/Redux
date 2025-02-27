@@ -5,8 +5,6 @@ import { store } from "./redux/store"; // Importa Redux
 import App from "./App";
 import "./index.css"; // Tailwind
 
-// Exponer Redux en la consola para pruebas (Opcional, puedes eliminarlo después)
-window.store = store;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
